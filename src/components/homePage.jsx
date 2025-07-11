@@ -20,6 +20,8 @@ import Mentor2 from "./mentor2";
 import TechStack from "./techStack";
 import BlockchainService from "./blockchainServices";
 import Partners from "./partners";
+import ReaidySlide from "./reaidy";
+import ChatBot from "./chatBot";
 
 export default function HomePage() {
   return (
@@ -32,19 +34,23 @@ export default function HomePage() {
       <HowWeStart />
       <DesignSlide />
       <TechSlide />
+      <ReaidySlide />
       <BlockchainService />
       <TechStack />
+     
       <Testimonials />
-      <Partners />
+     
+      {/* <Partners /> */}
       <TeamSlide />
       <TeamSlide2 />
-      <Mentor2 />
+      {/* <Mentor2 /> */}
       {/* <Mentors /> */}
 
       <Faq />
       <ArticlesList />
       <ContactUs />
       <FooterBar />
+      <ChatBot />
     </div>
   );
 }

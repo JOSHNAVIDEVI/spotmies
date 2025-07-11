@@ -1,10 +1,10 @@
 "use client";
 import {
   productDesign,
-  webDevelopment,
+  Datascience,
   blockchainDevelopment,
-  mobileDevelopment,
-  windowsDevelopment,
+  AI,
+  SAAS,
 } from "@/constants";
 import React, { useState } from "react";
 import { AiOutlineCloseCircle } from "react-icons/ai";
@@ -37,12 +37,12 @@ export default function Services() {
                 {dataInsideDiv({
                   onClick: () => {
                     setIsPopupOpen(true);
-                    setTitle("Product Design");
-                    setbody(productDesign);
+                    setTitle("AI & ML");
+                    setbody(AI);
                   },
-                  title: "Product Design",
+                  title: "AI & ML",
                   description:
-                    "Transform your ideas into reality with our expert product design services",
+                    "Realize your vision with our expert AI & ML product design services.",
                   image:
                     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSecondFolder%2FSecond1.avif?alt=media&token=23147974-49ad-4a89-a13a-eaffa8be8152",
                 })}
@@ -55,12 +55,12 @@ export default function Services() {
                   {dataInsideDiv({
                     onClick: () => {
                       setIsPopupOpen(true);
-                      setTitle("Web Development");
-                      setbody(webDevelopment);
+                      setTitle(" Android & iOS");
+                      setbody(Datascience);
                     },
-                    title: "Web Development",
+                    title: " Android & iOS",
                     description:
-                      "From ideation to launch, our web development services deliver excellence at every step",
+                      "Experience the future with our advanced neural network solutions.",
                     image:
                       "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSecondFolder%2FSecond3.avif?alt=media&token=a668618e-05b4-4931-b71d-f5a4e029421b",
                   })}
@@ -71,12 +71,12 @@ export default function Services() {
                   {dataInsideDiv({
                     onClick: () => {
                       setIsPopupOpen(true);
-                      setTitle("Blockchain");
-                      setbody(blockchainDevelopment);
+                      setTitle("SaaS");
+                      setbody(SAAS);
                     },
-                    title: "Blockchain & Web3",
+                    title: "SaaS",
                     description:
-                      "Empower your business with the transformative potential of blockchain technology",
+                      "Elevate your business with our cutting-edge SaaS solutions for seamless scalability and efficiency.",
                     image:
                       "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSecondFolder%2FSecond4.avif?alt=media&token=a3199497-b42f-4413-b2f9-dab2ba9e0dcb",
                   })}
@@ -91,12 +91,13 @@ export default function Services() {
                 {dataInsideDiv({
                   onClick: () => {
                     setIsPopupOpen(true);
-                    setTitle("Windows & Mac");
-                    setbody(windowsDevelopment);
+                    setTitle("Blockchain & Web3");
+                    setbody(blockchainDevelopment);
                   },
-                  title: "",
+                  //this is changed
+                  title: "Blockchain & Web3",
                   description:
-                    "Maximize your device's potential with our expert Windows & Mac services.",
+                    "Empower your business with the transformative potential of blockchain technology",
                   image:
                     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSecondFolder%2FSecond2.avif?alt=media&token=37d68459-0b1f-4f4e-be16-52c2745f98c4",
                 })}
@@ -107,12 +108,12 @@ export default function Services() {
                 {dataInsideDiv({
                   onClick: () => {
                     setIsPopupOpen(true);
-                    setTitle("Android & IOS");
-                    setbody(mobileDevelopment);
+                    setTitle("Product Design");
+                    setbody(productDesign);
                   },
-                  title: "Android & IOS",
+                  title: "Product Design",
                   description:
-                    "Building Mobile apps that not only look great but perform flawlessly across all devices",
+                    "Transform your ideas into reality with our expert product design services",
                   image:
                     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSecondFolder%2FSecond5.png?alt=media&token=78fc21e6-958f-4303-a5ab-168285a4b883",
                 })}
@@ -128,9 +129,12 @@ export default function Services() {
     return (
       <>
         <div className="absolute inset-0 bg-black opacity-20 hover:opacity-40 opacity-layer rounded-md md:rounded-xl" />
-        <div className="absolute inset-0 w-full h-full p-3 md:p-6 lg:p-10 flex flex-col">
+        <div className="absolute inset-0 w-full h-full p-3 md:p-6 lg:p-10 flex flex-col" 
+            onClick={() => {
+              onClick && onClick();
+            }}>
           <Fade bottom>
-            <p className="text-white gil-bold text-md md:text-3xl lg:text-4xl">
+            <p className="text-white gil-bold text-md md:text-3xl lg:text-4xl" >
               {title}
             </p>
           </Fade>
@@ -138,11 +142,6 @@ export default function Services() {
             {description}
           </p>
           <BsArrowRight
-            onClick={() => {
-              onClick && onClick();
-            }}
-            size=""
-            color="white"
             className="absolute bottom-[20px] md:text-[2rem] right-[30px]  onHoverShow cursor-pointer"
           />
         </div>
@@ -173,12 +172,12 @@ export function PopUp({ title, body, show, setShow }) {
           </>
         ))}
         <div
-          className="absolute top-2 right-2 cursor-pointer"
+          className="fixed top-2 right-2 cursor-pointer"
           onClick={() => {
             setShow(false);
           }}
         >
-          <AiOutlineCloseCircle size="2rem" color="black" />
+          <AiOutlineCloseCircle size="2rem" color="white" />
         </div>
       </div>
     </div>

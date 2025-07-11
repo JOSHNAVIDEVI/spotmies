@@ -76,10 +76,10 @@ export default function AboutUs() {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <p className="gil-med text-3xl lg:text-4xl">
-                  <CountUp enableScrollSpy={true} end={20} />
+                  <CountUp enableScrollSpy={true} end={4} />
                   <span className="md:mb-[15px] mb-[8px]">+</span>
                 </p>
-                <p className="gil-reg text-md lg:text-3xl">Happy Clients</p>
+                <p className="gil-reg text-md lg:text-3xl">AI Projects</p>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@ export default function AboutUs() {
             <div
               className=" h-full w-full object-cover rounded-3xl  group-hover:scale-110  transition-all duration-700 ease-in-out"
               style={{
-                backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FNew%20images%2Ftotalteam.jpg?alt=media&token=3180296f-98bc-408e-a300-63611536255c)`,
+                backgroundImage: `url(https://spotmiesstorage.blob.core.windows.net/media/Group1.png)`,
 
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -128,7 +128,7 @@ export default function AboutUs() {
             </Fade>
             <Fade bottom>
               {" "}
-              <p className="gil-bold text-3xl md:text-5xl lg:text-8xl lg:w-[90%] w-full md:w-[90%]">
+              <p className="gil-bold text-3xl md:text-5xl lg:text-5xl lg:w-[90%] w-full md:w-[90%]">
                 Making Quality Services <br /> Accessible to{" "}
                 <span className="text-primary">Everyone</span>
               </p>

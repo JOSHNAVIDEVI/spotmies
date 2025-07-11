@@ -4,7 +4,8 @@ import React, { useState } from "react";
 import { BsArrowRight, BsArrowUpRightCircle } from "react-icons/bs";
 import { Fade } from "react-reveal";
 import { PopUp } from "./services";
-
+import img from "../../public/img.jpg";
+import group from "../../public/group.jpg"
 export default function TeamSlide() {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   return (
@@ -41,8 +42,7 @@ export default function TeamSlide() {
                     title: "Web Development",
                     description:
                       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    image:
-                      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2Fourteam4.jpeg?alt=media&token=108a936c-8d5e-4e9c-a5c9-4c8b32c88433",
+                    image:"https://reaidystorage.blob.core.windows.net/spotmiespublic/img.jpg",
                   })}
                 </div>
               </Fade>
@@ -65,7 +65,7 @@ export default function TeamSlide() {
               {/* add content here
                */}
               <Fade bottom>
-                <p className="md:text-5xl lg:text-6xl gil-bold text-3xl">
+                <p className="md:text-5xl lg:text-5xl gil-bold text-3xl">
                   {" "}
                   We Are <span className="text-primary">Result</span> Driven
                   Team
@@ -73,7 +73,7 @@ export default function TeamSlide() {
               </Fade>
               <div className="opacity-60">
                 <Fade bottom>
-                  <p className="text-sm lg:text-xl opacity-60 lg:w-[90%] text-justify">
+                  <p className="text-sm lg:text-lg opacity-60 lg:w-[90%] text-justify">
                     At our company, quality is of the utmost importance when it
                     comes to development. We strive to ensure that all of our
                     products are of the highest standard and built to last. We
@@ -101,9 +101,10 @@ export default function TeamSlide() {
                   title: "Mobile Development",
                   description:
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                  image:
-                    "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FNew%20images%2FPXL_20230630_064756373-1(1).jpg?alt=media&token=e6189f9e-955d-4555-bf84-edea46984820",
-                })}
+                  image: "group.jpg"
+                    // "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FNew%20images%2FPXL_20230630_064756373-1(1).jpg?alt=media&token=e6189f9e-955d-4555-bf84-edea46984820",
+                  
+})}
               </div>
             </Fade>
           </div>
