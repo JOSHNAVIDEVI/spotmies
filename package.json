@@ -20,6 +20,7 @@
     "react-multi-carousel": "^2.8.3",
     "react-reveal": "^1.2.2",
     "react-router-dom": "^6.23.1",
+    "react-server-dom-webpack": "^0.0.0-experimental-96c61b7f-20250709",
     "react-spinners": "^0.14.1"
   },
   "devDependencies": {

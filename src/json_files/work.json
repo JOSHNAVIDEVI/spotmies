@@ -1,5 +1,42 @@
 [
   {
+    "description": "In the digital economy, where authenticity drives engagement, influencer marketing has emerged as a powerful tool for brand success. However, connecting the right influencer with the right brand remains a challenge. Stoory is a platform built to streamline and professionalize the influencer-brand relationship.",
+    "image": "/portfolio-imgs/stoory.png",
+    "projectLink": "#",
+    "tags": ["Web 2"],
+    "title": "Stoory",
+    "projectName": "stoory",
+    "completed": false,
+    "overview": {
+      "images": ["/portfolio-imgs/stoory.png",
+        "/portfolio-imgs/stoory-1.png",
+        "/portfolio-imgs/stoory-2.png"
+      ],
+      "techstack": ["reactjs"],
+      "content": [
+        {
+          "image": "/portfolio-imgs/stoory-1.png",
+          "title": "Introduction",
+          "description": "In the digital economy, where authenticity drives engagement, influencer marketing has emerged as a powerful tool for brand success. However, connecting the right influencer with the right brand remains a challenge. Stoory is a platform built to streamline and professionalize the influencer-brand relationship."
+        },
+        {
+          "image": "/portfolio-imgs/stoory-2.png",
+          "title": "About",
+          "description": "Stoory is a two-sided platform designed for influencers and brands to discover, collaborate, and launch campaigns efficiently. It provides tools for proposal management, chat communication, payout tracking, and performance analytics, all under a unified interface."
+        },
+        {
+            "title": "Description",
+            "description": "With Stoory, influencers can build and showcase their personal brand through portfolios, while brands can explore, filter, and hire creators that align with their vision. From campaign posting to final delivery and payment, Stoory keeps everything structured and transparent. It eliminates lengthy email chains, reduces miscommunication, and speeds up the content marketing cycle."
+        },
+        {
+            "title": "Conclusion",
+            "description": "Stoory transforms influencer collaboration into a guided, organized, and trustworthy experience—empowering creators and brands to tell better stories together and grow their reach authentically."
+        }
+    ],
+      "links": {"website": "#"}
+    }
+  },
+  {
     "description": "Supercharge your career with Reaidy.io! Access AI-driven interview simulations and programming language courses. Sharpen your skills with realistic mock interviews and structured courses. Track your progress with intelligent analytics and unlock exclusive job opportunities. Elevate your career today with Reaidy.io!",
     "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy1.png",
     "projectLink": "https://www.reaidy.io/index.html",
@@ -53,7 +90,44 @@
     }
   },
   {
-    "description": "Unlock the power of AI-driven chatbots to enhance customer engagement and streamline communication. Train your chatbot with your website's data using our advanced web scraping tool, and deliver accurate, relevant responses to your customers. Capture leads effortlessly and boost conversions with Workewhere’s cutting-edge technology. Elevate your customer experience and drive business growth today with Workewhere!",
+    "description": "Awaken helps users set and track personalized financial goals like retirement, education, and emergency funds. With intuitive dashboards, client management features, and visual analytics, it simplifies financial planning for individuals and advisors alike.",
+    "image": "/portfolio-imgs/awaken.png",
+    "projectLink": "#",
+    "tags": ["Web 2"],
+    "title": "Awaken",
+    "projectName": "awaken",
+    "completed": false,
+    "overview": {
+      "images": ["/portfolio-imgs/awaken.png",
+        "/portfolio-imgs/awaken1.png",
+        "/portfolio-imgs/awaken2.png"
+      ],
+      "techstack": ["reactjs"],
+      "content": [
+        {
+          "image": "/portfolio-imgs/awaken1.png",
+          "title": "Introduction",
+          "description": "For most people, financial planning is complex, intimidating, or often delayed. Awaken changes that by offering a friendly, transparent platform to help users plan, track, and achieve their financial goals confidently."
+        },
+        {
+          "image": "/portfolio-imgs/awaken2.png",
+          "title": "About",
+          "description": "Awaken is a web-based goal planning system designed for individuals and financial advisors. It allows users to set custom financial goals—such as saving for retirement, education, or emergencies—and build plans to reach them over time."
+        },
+        {
+          "title": "Description",
+          "description": "The platform uses goal-based inputs to generate savings or investment paths, visualized through graphs and timelines. Users can adjust targets, get insights, and consult with financial advisors via integrated tools. Advisors, on the other hand, can manage multiple clients and generate reports through a secure dashboard. The clean UI and interactive tools make complex planning easy and accessible."
+        },
+        {
+          "title": "Conclusion",
+          "description": "Awaken empowers financial decision-making for all. It removes guesswork, builds trust, and inspires confidence—ensuring everyone can take control of their future, one goal at a time."
+        }
+      ],
+      "links": {"website": "#"}
+    }
+  },
+  {
+    "description": "Unlock the power of AI-driven chatbots to enhance customer engagement and streamline communication. Train your chatbot with your website's data using our advanced web scraping tool, and deliver accurate, relevant responses to your customers. Capture leads effortlessly and boost conversions with Workewhere's cutting-edge technology. Elevate your customer experience and drive business growth today with Workewhere!",
     "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/Oscar.png",
     "projectLink": "https://workewhere.nl/",
     "tags": [
@@ -92,7 +166,7 @@
         {
           "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Dashboard-Frequently asked topics.png",
           "title": "How Does Workewhere Work?",
-          "description": "Workewhere utilizes a sophisticated combination of web scraping and AI to gather and process data from a company's website. Once a company provides its website link, Workewhere's built-in web scraping tool extracts relevant information, such as product details, company history, and FAQs. This data forms the foundation for training the chatbot, ensuring it has a deep understanding of the company’s offerings and can accurately represent the brand in all customer interactions."
+          "description": "Workewhere utilizes a sophisticated combination of web scraping and AI to gather and process data from a company's website. Once a company provides its website link, Workewhere's built-in web scraping tool extracts relevant information, such as product details, company history, and FAQs. This data forms the foundation for training the chatbot, ensuring it has a deep understanding of the company's offerings and can accurately represent the brand in all customer interactions."
         },
         {
           "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Conversations-2.png",
@@ -102,7 +176,7 @@
         {
           "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-webinfo-basic info.png",
           "title": "How Is Data Acquired and Used?",
-          "description": "Workewhere's process begins with web scraping, where our AI system gathers data directly from the company’s website. This includes text, images, and structured data, which are all used to build a comprehensive knowledge base for the chatbot. The RAG model then retrieves the most relevant pieces of information from this database whenever a user asks a question. After retrieving the data, the generation model tailors the response to match the specific query, ensuring that users receive clear, concise, and informative answers."
+          "description": "Workewhere's process begins with web scraping, where our AI system gathers data directly from the company's website. This includes text, images, and structured data, which are all used to build a comprehensive knowledge base for the chatbot. The RAG model then retrieves the most relevant pieces of information from this database whenever a user asks a question. After retrieving the data, the generation model tailors the response to match the specific query, ensuring that users receive clear, concise, and informative answers."
         },
         {
           "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Chat settings-lead info.png",
@@ -111,11 +185,439 @@
         },
         {
           "title": "Conclusion:",
-          "description": "Workewhere is more than just a chatbot creation platform; it’s a powerful tool that combines the latest advancements in AI and data processing to provide companies with a competitive edge in customer engagement. Whether it’s answering queries, providing information, or generating leads, Workewhere ensures that businesses can maintain meaningful connections with their customers at every touchpoint."
+          "description": "Workewhere is more than just a chatbot creation platform; it's a powerful tool that combines the latest advancements in AI and data processing to provide companies with a competitive edge in customer engagement. Whether it's answering queries, providing information, or generating leads, Workewhere ensures that businesses can maintain meaningful connections with their customers at every touchpoint."
         }
       ],
       "links": {
         "website": "https://workewhere.nl/",
+        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
+      }
+    }
+  },
+   {
+    "description": "The future of shopping lies in automation and personalization. Smart Cart is an advanced retail solution that enables customers to shop, scan, and pay without waiting—bringing the efficiency of online shopping into physical stores.",
+    "image": "/portfolio-imgs/smart-cart.png",
+    "projectLink": "#",
+    "tags": ["Web 2"],
+    "title": "Smart Cart",
+    "projectName": "smart-kart",
+    "completed": false,
+    "overview": {
+      "images": ["/portfolio-imgs/smart-cart.png",
+        "/portfolio-imgs/smart1.png",
+        "/portfolio-imgs/smart2.png",
+        "/portfolio-imgs/smart3.png"
+      ],
+      "techstack": ["reactjs"],
+      "content": [
+        {
+          "image": "/portfolio-imgs/smart1.png",
+            "title": "Introduction",
+            "description": "The future of shopping lies in automation and personalization. Smart Cart is an advanced retail solution that enables customers to shop, scan, and pay without waiting—bringing the efficiency of online shopping into physical stores."
+        },
+        {
+          "image": "/portfolio-imgs/smart2.png",
+            "title": "About",
+            "description": "Smart Cart is a mobile-first shopping platform that integrates smart trolleys with digital payments. Customers can scan products directly into their cart and checkout on the go—eliminating queues and cashier bottlenecks."
+        },
+        {
+          "image": "/portfolio-imgs/smart3.png",
+            "title": "Description",
+            "description": "The system uses QR codes or Bluetooth to pair a user's app with a smart trolley. As users add items, the app updates totals and applies discounts in real-time. Once done, users can pay directly from the app. On the backend, retailers benefit from inventory analytics, shopper behavior data, and reduced manpower needs."
+        },
+        {
+        
+            "title": "Conclusion",
+            "description": "Smart Cart delivers a futuristic, frictionless shopping journey. It enhances retail efficiency, personalizes in-store experiences, and redefines convenience for modern consumers."
+        }
+      ],
+      "links": {"website": "#"}
+    }
+  },
+ 
+   {
+    "description": "A Square Go Karting is an exhilarating theme park located in Anandapuram, Visakhapatnam. With its play arena, drive-in, and race track, it offers an adventurous experience for youngsters and children. Featuring India's longest track, it invites you to test your skills and enjoy thrilling twists and turns with your friends and family",
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive3.png?alt=media&token=d1e90a5a-6884-48d6-b135-904adc784387",
+    "projectLink": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+    "tags": [
+      "Web 2"
+    ],
+    "title": "A Square Go Karting",
+    "projectName": "a-square-go-karting",
+    "completed": true,
+    "overview": {
+      "images": [
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/10_.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/424fd1168724535.643faf6c4a28a.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/a8758a168724535.643faf6c48905.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/d851f6168724535.643fc2291b128.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/fe44ca168724535.643faf6c49688.png"
+      ],
+      "techstack": [
+        "flutter",
+        "reactjs",
+        "nodejs",
+        "mongodb"
+      ],
+      "content": [
+        {
+          "title": "Project Description",
+          "description": "At A Square Go Karting, we pride ourselves on providing a superb, safe, and clean go karting track, making it the best go kart race track in Visakhapatnam. Our state-of-the-art race karts offer the perfect opportunity to enjoy the excitement of high-speed racing. The track is equipped with full safety barriers, ensuring your safety and protecting the karts from damage. Additionally, we offer a fully glowing night track, adding to the thrill of the experience."
+        },
+        {
+          "title": " Flexible Track Design and Variety of Races",
+          "description": " Our track at A Square Go Karting stands out for its unique and flexible nature. With a beach view, the track can be modified as and when required. This ensures that our karting enthusiasts always have a new challenge waiting for them, keeping the excitement alive. The track is suitable for various types of races and events, including customized tracks, championships, and practice sessions for both adults and children. Whether you are a professional driver or a complete beginner, our track guarantees an exciting and enjoyable experience for everyone.",
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/424fd1168724535.643faf6c4a28a.png"
+        },
+        {
+          "title": "Safety First",
+          "description": " Your safety is our top priority at A Square Go Karting. To ensure a safe and enjoyable experience for all participants, we have implemented strict safety rules and regulations. It is essential to follow the instructions provided by our course staff, and disobedience may result in disqualification from the race. Wearing a helmet is mandatory, and driving under the influence of alcohol or drugs is strictly prohibited. We maintain a zero-tolerance policy for intentional bumping into other go-karts or crashing into the tire barriers. We provide clear guidelines to ensure your safety throughout the racing experience.",
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/a8758a168724535.643faf6c48905.png"
+        },
+        {
+          "title": "Exciting Games and Activities",
+          "description": " In addition to go-karting, A Square Go Karting offers a range of exciting games and activities for visitors to enjoy. From mud slingers and archery to rifle shooting and rock climbing, there is something for everyone. Experience the thrill of the Big Baller, enjoy a game of snooker, or indulge in relaxation with our robotic massage chair. Trampolines and indoor tickets add to the diverse range of entertainment options available at our theme park.",
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/d851f6168724535.643fc2291b128.png"
+        },
+        {
+          "title": "Client Testimonials:",
+          "description": " Anand Boddeti, our valued client, has shared his satisfaction with our services. He chose A Square Go Karting because of our responsive and trustworthy approach, ensuring timely delivery. Our implementation of clear designs and utilization of the latest strategies throughout the development process impressed him.",
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/fe44ca168724535.643faf6c49688.png"
+        }
+      ],
+      "links": {
+        "website": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
+      }
+    }
+  },
+ 
+  {
+    "description": "Children learn best through stories, play, and exploration. Namasthe World is a toy brand and creative universe that brings joy, curiosity, and imagination to life—blending tangible toys with digital storytelling.",
+    "image": "/portfolio-imgs/namasthe.png",
+    "projectLink": "#",
+    "tags": ["Web 2"],
+    "title": "Namaste World",
+    "projectName": "namaste-world",
+    "completed": false,
+    "overview": {
+      "images": ["/portfolio-imgs/namasthe.png",
+        "/portfolio-imgs/namasthe1.png",
+        "/portfolio-imgs/namasthe2.png",
+        "/portfolio-imgs/namasthe3.png"
+      ],
+      "techstack": ["reactjs"],
+      "content": [
+        {
+          "image": "/portfolio-imgs/namasthe1.png",
+            "title": "Introduction",
+            "description": "Children learn best through stories, play, and exploration. Namasthe World is a toy brand and creative universe that brings joy, curiosity, and imagination to life—blending tangible toys with digital storytelling."
+        },
+        {
+          "image": "/portfolio-imgs/namasthe2.png",
+            "title": "About",
+            "description": "Namasthe World designs character-based toys inspired by global cultures, nature, and fantasy. Each toy is part of a larger story universe, with supporting animations, eco-friendly packaging, and interactive content."
+        },
+        {
+          "image": "/portfolio-imgs/namasthe3.png",
+            "title": "Description",
+            "description": "Whether it's plushies with backstories, limited-edition figures, or creative kits, every Namasthe World product sparks imaginative play. The digital experience includes AR adventures, comic-style storytelling, and character origin videos. The brand promotes conscious play—using sustainable materials, inclusive characters, and thoughtful narratives that resonate with both kids and parents."
+        },
+        {
+          "image": "/portfolio-imgs/namasthe.png",
+            "title": "Conclusion",
+            "description": "Namasthe World goes beyond toys. It creates a magical ecosystem where playtime becomes a portal to learning, empathy, and storytelling. It's where creativity meets purpose."
+        }
+      ],
+      "links": {"website": "#"}
+    }
+  },
+  {
+    "description": "Decentrialz is an innovative platform that revolutionizes the recruitment process for clinical trials. Our mission is to provide an integrated technology platform that locates, qualifies, and recruits patients at scale. With our proprietary software solutions, we automate manual tasks, ensuring streamlined and efficient recruitment processes within target timeframes and budgets.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive2.png?alt=media&token=869ac8bb-d6fb-4655-b40e-2bcddf34a864",
+    "projectLink": "https://decentrialz.com",
+    "tags": [
+      "Web 2"
+    ],
+    "title": "Decentrialz",
+    "projectName": "decentrialz",
+    "completed": true,
+    "overview": {
+      "images": [
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/09_.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/531290170730703.646345d2d625f.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/5d7893170730703.646345d2d9515.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/7404fd170730703.64634bda0abf9.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/bbd7bf170730703.646345d2d795a.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/e9ae5b170730703.646345d2d88df.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/2f8a1f170730703.646345d2d6e54.png"
+      ],
+      "techstack": [
+        "reactjs",
+        "vite",
+        "python",
+        "aws",
+        "vercel",
+        "mysql"
+      ],
+      "content": [
+        {
+          "title": "Project Description",
+          "description": "Decentrialz is an innovative platform that revolutionizes the recruitment process for clinical trials. Our mission is to provide an integrated technology platform that locates, qualifies, and recruits patients at scale. With our proprietary software solutions, we automate manual tasks, ensuring streamlined and efficient recruitment processes within target timeframes and budgets."
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/531290170730703.646345d2d625f.png"
+        },
+        {
+          "title": "Recruit Participants at Scale",
+          "description": " Activate channels highly relevant for precise patient recruitment, leveraging digital marketing, healthcare professional (HCP) networks, and advocacy groups. By reaching and engaging high-intent patients or participants through targeted digital channels, we capture their interest and nurture their engagement."
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/5d7893170730703.646345d2d9515.png"
+        },
+        {
+          "title": "Maintain the Human Touch",
+          "description": " We understand the importance of the human touch in the recruitment process. That's why we utilize an on-demand virtual nurse layer for secondary qualification. This ensures personalized and empathetic interactions with potential participants, preserving the human touch throughout the recruitment journey."
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/7404fd170730703.64634bda0abf9.png"
+        },
+        {
+          "title": "Digital Marketing, HCP Network & Network of Advocacy Groups:",
+          "description": " We activate highly relevant channels to precisely target and engage potential participants. Leveraging digital marketing strategies, healthcare professional networks, and advocacy groups, we maximize the reach and effectiveness of our recruitment efforts.",
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/bbd7bf170730703.646345d2d795a.png"
+        },
+        {
+          "title": "On-Demand Virtual Nurse:",
+          "description": " To maintain the human touch, we provide an on-demand virtual nurse layer for secondary qualification. This virtual nurse offers personalized support and assistance to potential participants, addressing their questions and concerns, and ensuring a compassionate and empathetic experience.",
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/e9ae5b170730703.646345d2d88df.png"
+        },
+        {
+          "title": "Automated Recruitment Platform:",
+          "description": " Our cutting-edge software solutions automate time-consuming manual steps involved in the recruitment process. By eliminating unnecessary delays and optimizing efficiency, we provide a streamlined and hassle-free experience for both researchers and participants."
+        },
+        {
+          "title": "Achieve Recruitment Goals",
+          "description": " Through our integrated technology platform, we empower organizations to locate, qualify, and recruit patients at scale. Our automated recruitment platform saves time, reduces administrative burden, and helps you achieve your recruitment goals within the specified time and budget.",
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/2f8a1f170730703.646345d2d6e54.png"
+        }
+      ],
+      "links": {
+        "website": "https://decentrialz.com",
+        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
+      }
+    }
+  },
+ 
+  {
+    "description": "Entrepreneurship is a powerful force for progress, and universities play a crucial role in nurturing this energy. A Hub is Andhra University's digital incubation platform, crafted to support student-led startups, innovation ecosystems, and industry collaboration.",
+    "image": "/portfolio-imgs/ahub.png",
+    "projectLink": "#",
+    "tags": ["Web 2"],
+    "title": "A Hub",
+    "projectName": "a-hub",
+    "completed": false,
+    "overview": {
+      "images": ["/portfolio-imgs/ahub.png",
+        "/portfolio-imgs/a-hub1.png",
+        "/portfolio-imgs/a-hub2.png",
+        "/portfolio-imgs/a-hub3.png"
+      ],
+      "techstack": ["reactjs"],
+      "content": [
+        {
+          "image": "/portfolio-imgs/a-hub1.png",
+            "title": "Introduction",
+            "description": "Entrepreneurship is a powerful force for progress, and universities play a crucial role in nurturing this energy. A Hub is Andhra University's digital incubation platform, crafted to support student-led startups, innovation ecosystems, and industry collaboration."
+        },
+        {
+          "image": "/portfolio-imgs/a-hub2.png",
+            "title": "About",
+            "description": "A Hub functions as a centralized portal for startup submissions, event tracking, incubator listings, and mentorship programs within Andhra University. It brings visibility to innovative ideas and acts as a support system for budding entrepreneurs."
+        },
+        {
+          "image": "/portfolio-imgs/a-hub3.png",
+            "title": "Description",
+            "description": "Students can submit ideas, apply for incubation, join hackathons, and connect with industry mentors. A Hub highlights startup journeys, features active incubation centers, and provides access to resources like funding opportunities, workshops, and pitch events. Its clean and modern interface makes innovation accessible to every department and student."
+        },
+        {
+          "image": "/portfolio-imgs/ahub.png",
+            "title": "Conclusion",
+            "description": "By offering a vibrant digital ecosystem, A Hub fuels a culture of innovation and empowers students to dream big, build fearlessly, and transform ideas into impactful ventures."
+        }
+    ],
+      "links": {"website": "#"}
+    }
+  },
+  {
+    "description": "Farmers face major challenges—limited access to expert advice, language barriers, and time-sensitive crop decisions. Farm-Vaidya introduces a voice-powered AI platform built to empower every farmer with instant, intelligent agricultural support.",
+    "image": "/portfolio-imgs/farm-vaidya.png",
+    "projectLink": "#",
+    "tags": ["Web 2"],
+    "title": "Farm Vaidya",
+    "projectName": "farm-vaidya",
+    "completed": false,
+    "overview": {
+      "images": ["/portfolio-imgs/farm-vaidya.png",
+        "/portfolio-imgs/farm1.png",
+        "/portfolio-imgs/farm2.png",
+        "/portfolio-imgs/farm3.png"
+      ],
+      "techstack": ["reactjs"],
+      "content": [
+        {
+          "image": "/portfolio-imgs/farm1.png",
+            "title": "Introduction",
+            "description": "Farmers face major challenges—limited access to expert advice, language barriers, and time-sensitive crop decisions. Farm-Vaidya introduces a voice-powered AI platform built to empower every farmer with instant, intelligent agricultural support."
+        },
+        {
+          "image": "/portfolio-imgs/farm2.png",
+            "title": "About",
+            "description": "Farm-Vaidya leverages Gen AI to provide 24/7 multilingual voice assistance to farmers and agri-stakeholders. It delivers real-time, accurate responses to farming queries—bridging knowledge gaps and improving productivity."
+        },
+        {
+          "image": "/portfolio-imgs/farm3.png",
+            "title": "Description",
+            "description": "Users can ask questions through voice or image input in their native language. AI clones of agricultural scientists or product experts respond with tailored guidance on seeds, pest control, soil health, and sustainable practices. For agri-companies, the platform provides data dashboards to analyze regional queries, improve service, and reach farmers more efficiently."
+        },
+        {
+          "image": "/portfolio-imgs/farm-vaidya.png",
+            "title": "Conclusion",
+            "description": "Farm-Vaidya is not just a tech solution—it's a mission to transform agriculture through inclusive, data-driven, and scalable AI support. It brings expert knowledge to the grassroots level, uplifting rural economies and modernizing farming at scale."
+        }
+    ],
+      "links": {"website": "#"}
+    }
+  },
+  {
+    "description": "In the realm of modern romance, BoomBoomTalk stands tall as a pioneering force in the digital dating landscape. Seamlessly combining innovative Web3 integration with the age-old art of connecting hearts, BoomBoomTalk is more than just another dating platform – it's a revolutionary experience that transcends conventional boundaries. In this portfolio entry, we'll delve into the captivating world of BoomBoomTalk, exploring its cutting-edge features, the transformative power of Web3, and its unwavering commitment to user safety.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%201.png?alt=media&token=76a62138-e5ec-4883-a4c6-bce56ff46955",
+    "projectLink": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+    "tags": [
+      "Web 3"
+    ],
+    "title": "Boom Boom Talk",
+    "projectName": "boom-boom-talk",
+    "completed": true,
+    "overview": {
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%201.png?alt=media&token=76a62138-e5ec-4883-a4c6-bce56ff46955",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%202.png?alt=media&token=637edb53-d53c-470a-9446-b97284ac5cee",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%203.png?alt=media&token=72f5b262-fd24-4fb4-a7fc-fd0366a076f8",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%204.png?alt=media&token=35ae211b-cd48-4793-9ef6-d316b716151c",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%205.png?alt=media&token=703aa98c-f780-4cea-9f37-6e232b8b8a83"
+      ],
+      "techstack": [
+        "figma",
+        "flutter",
+        "reactjs",
+        "mysql",
+        "aws"
+      ],
+      "content": [
+        {
+          "title": "Introduction:",
+          "description": "Elevate your dating journey with BoomBoom Talk, a revolutionary online dating platform designed to bring genuine connections to the forefront. Our cutting-edge features empower you to discover compatible matches effortlessly. Our advanced matchmaking algorithm takes your preferences to heart, making every match a potential meaningful connection. Say goodbye to the swipe-saturated world and hello to profiles that truly resonate."
+        },
+        {
+          "title": "Chat-Centric Connections:",
+          "description": "In an era marked by fleeting interactions and superficial swipes, BoomBoomTalk prioritizes meaningful connections forged through genuine conversations. Our platform places chat at the heart of the dating experience, encouraging users to engage in substantive dialogues that go beyond mere appearances. By facilitating in-depth conversations, BoomBoomTalk helps users discover the true essence of their potential partners, fostering bonds that are rooted in compatibility and shared values.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%202.png?alt=media&token=637edb53-d53c-470a-9446-b97284ac5cee"
+        },
+        {
+          "title": "Elevate Your Interaction:",
+          "description": "Interactive profiles come alive on BoomBoom Talk, enabling you to showcase your true self through multimedia content that goes beyond just pictures. Break the ice with fun and engaging challenges, ensuring that those initial conversations flow seamlessly. Immerse yourself in our virtual events, where you can meet like-minded singles in a relaxed and enjoyable atmosphere, all while prioritizing your safety and privacy.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%203.png?alt=media&token=72f5b262-fd24-4fb4-a7fc-fd0366a076f8"
+        },
+        {
+          "title": "Safety Above All:",
+          "description": "Safety is the cornerstone of every successful dating platform, and at BoomBoomTalk, we take it to the next level. Our commitment to user safety is unwavering, evidenced by our comprehensive measures to safeguard user profiles and personal information. Through stringent verification processes and advanced security protocols, we ensure that every profile on our platform is genuine and trustworthy.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%204.png?alt=media&token=35ae211b-cd48-4793-9ef6-d316b716151c"
+        },
+        {
+          "title": "Conclusion:",
+          "description": "In the landscape of digital dating, BoomBoomTalk emerges as a trailblazing force that redefines the possibilities of human connection. Through innovative Web3 integration, the power of genuine conversations, and an unyielding commitment to safety, we've created a platform that transcends the limitations of traditional dating apps. BoomBoomTalk is more than just technology – it's the catalyst for genuine, transformative relationships in the digital age. Join us in shaping the future of romance, one meaningful connection at a time.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%205.png?alt=media&token=703aa98c-f780-4cea-9f37-6e232b8b8a83"
+        }
+      ],
+      "links": {
+        "website": "https://www.boomboomtalk.xyz",
+        "android": "https://play.google.com/store/apps/details?id=com.boom_boom_talk"
+      }
+    }
+  },
+  {
+    "description": "Experience the extraordinary world of Indie Skull Syndicate, where creativity, uniqueness, and digital ownership merge into a captivating journey. Join Zoople and 2,500 other wanderers in this groundbreaking NFT project that blurs the boundaries between humans and phantoms. Are you ready to become a member of the Syndicate",
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive12.png?alt=media&token=0d7c5bd8-f2a3-4cbb-9990-500ee4a5ab3c",
+    "projectLink": "https://indieskullsyndicate.xyz",
+    "tags": [
+      "Web 3",
+      "NFT"
+    ],
+    "title": "Indie Skull Syndicate",
+    "projectName": "indie-skull-syndicate",
+    "glimpse": "NFT based project",
+    "completed": true,
+    "overview": {
+      "images": [
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/5_indiesskull.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/2edb83169113745.644764b381632.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/45aeff169113745.644764b38368c.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/5e05ac169113745.644764b3823c0.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/664197169113745.6447680d9b8a2.png"
+      ],
+      "techstack": [
+        "nextjs",
+        "tailwind",
+        "vercel",
+        "firebase",
+        "metamask",
+        "solidity",
+        "ethereum"
+      ],
+      "content": [
+        {
+          "title": "Project Description",
+          "description": "Experience the extraordinary world of Indie Skull Syndicate, where creativity, uniqueness, and digital ownership merge into a captivating journey. Join Zoople and 2,500 other wanderers in this groundbreaking NFT project that blurs the boundaries between humans and phantoms. Are you ready to become a member of the Syndicate"
+        },
+        {
+          "title": "Unlock the Power of NFTs",
+          "description": " Indie Skull Syndicate is an innovative NFT (Non-Fungible Token) project that embraces the transformative potential of blockchain technology. Our platform provides a digital marketplace where individuals can buy and sell unique digital assets securely, immutably, and transparently. Through the power of smart contracts, each NFT becomes a one-of-a-kind collectable, representing a piece of art, music, or other forms of creative expression.",
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/2edb83169113745.644764b381632.png"
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/45aeff169113745.644764b38368c.png",
+          "title": "Next-Level Technology ",
+          "description": " At Indie Skull Syndicate, we leverage cutting-edge technologies to ensure a seamless and immersive experience for our community. Our application is built on Next.js, a powerful framework that combines the benefits of React with server-side rendering, offering lightning-fast performance and enhanced SEO capabilities. The smart contracts that govern the creation, ownership, and trading of NFTs are developed using the Solidity programming language, ensuring the utmost security and reliability."
+        },
+        {
+          "title": "Featured on OpenSea",
+          "description": "We're proud to announce that Indie Skull Syndicate has been featured on OpenSea, the world's largest NFT marketplace. As a featured project, our unique digital assets are showcased to a vast audience of collectors, enthusiasts, and investors. This partnership opens up exciting opportunities for our community members to connect with a wider audience, trade their NFTs, and explore new avenues for artistic expression."
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/5e05ac169113745.644764b3823c0.png",
+          "title": " Your Gateway to Exclusive Digital Assets",
+          "description": " Indie Skull Syndicate is not just another free mint platform. We believe in the value and craftsmanship behind each NFT, which is why our marketplace offers carefully curated, premium digital assets. Every piece available for purchase has been thoughtfully crafted by talented artists, musicians, and creators, making each NFT a unique and valuable addition to your collection. Prepare to embark on a journey of discovery, as you explore a vast array of captivating, limited-edition digital treasures."
+        },
+        {
+          "title": "Connect, Engage, and Inspire ",
+          "description": " Indie Skull Syndicate is more than just a marketplace; it's a thriving community of passionate individuals who appreciate the beauty and significance of digital art and collectables. Connect with like-minded enthusiasts, engage in conversations, and inspire others with your own creations. Join us in celebrating the world of NFTs, where artistic expression knows no bounds and digital ownership becomes a new frontier"
+        },
+        {
+          "title": " About mint day",
+          "description": " Initially, few people minted the NFTs for the price of 0.007 Ethereum, but later the client decided to make them available for free to all users. Once they became available for free, the NFTs became incredibly popular and set a record in the OpenSea platform. The project quickly became one of the top three best-selling NFT collections in a single day and was the fastest-selling NFT collection of that day."
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/664197169113745.6447680d9b8a2.png",
+          "title": "The challenge we faced during the project ",
+          "description": " One of the main challenges faced during the development of this project was creating an interactive website with dynamic designs and skull images. The team had to work hard to arrange the half-human, half-skull images together and create engaging animations for the website. Despite these challenges, the team successfully created a one-of-a-kind NFT project that stands out in the ever-growing NFT market.The Indie Skull Syndicate NFT project is now featured on OpenSea, where collectors can purchase and trade these unique NFTs. Join the Syndicate and become a part of this exciting and exclusive NFT collection."
+        }
+      ],
+      "links": {
+        "website": "https://indieskullsyndicate.spotmies.com",
         "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
       }
@@ -383,287 +885,6 @@
       ],
       "links": {
         "website": "https://www.schemaxtech.com",
-        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
-        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
-      }
-    }
-  },
-  {
-    "description": "Decentrialz is an innovative platform that revolutionizes the recruitment process for clinical trials. Our mission is to provide an integrated technology platform that locates, qualifies, and recruits patients at scale. With our proprietary software solutions, we automate manual tasks, ensuring streamlined and efficient recruitment processes within target timeframes and budgets.",
-    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive2.png?alt=media&token=869ac8bb-d6fb-4655-b40e-2bcddf34a864",
-    "projectLink": "https://decentrialz.com",
-    "tags": [
-      "Web 2"
-    ],
-    "title": "Decentrialz",
-    "projectName": "decentrialz",
-    "completed": true,
-    "overview": {
-      "images": [
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/09_.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/531290170730703.646345d2d625f.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/5d7893170730703.646345d2d9515.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/7404fd170730703.64634bda0abf9.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/bbd7bf170730703.646345d2d795a.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/e9ae5b170730703.646345d2d88df.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/2f8a1f170730703.646345d2d6e54.png"
-      ],
-      "techstack": [
-        "reactjs",
-        "vite",
-        "python",
-        "aws",
-        "vercel",
-        "mysql"
-      ],
-      "content": [
-        {
-          "title": "Project Description",
-          "description": "Decentrialz is an innovative platform that revolutionizes the recruitment process for clinical trials. Our mission is to provide an integrated technology platform that locates, qualifies, and recruits patients at scale. With our proprietary software solutions, we automate manual tasks, ensuring streamlined and efficient recruitment processes within target timeframes and budgets."
-        },
-        {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/531290170730703.646345d2d625f.png"
-        },
-        {
-          "title": "Recruit Participants at Scale",
-          "description": " Activate channels highly relevant for precise patient recruitment, leveraging digital marketing, healthcare professional (HCP) networks, and advocacy groups. By reaching and engaging high-intent patients or participants through targeted digital channels, we capture their interest and nurture their engagement."
-        },
-        {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/5d7893170730703.646345d2d9515.png"
-        },
-        {
-          "title": "Maintain the Human Touch",
-          "description": " We understand the importance of the human touch in the recruitment process. That's why we utilize an on-demand virtual nurse layer for secondary qualification. This ensures personalized and empathetic interactions with potential participants, preserving the human touch throughout the recruitment journey."
-        },
-        {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/7404fd170730703.64634bda0abf9.png"
-        },
-        {
-          "title": "Digital Marketing, HCP Network & Network of Advocacy Groups:",
-          "description": " We activate highly relevant channels to precisely target and engage potential participants. Leveraging digital marketing strategies, healthcare professional networks, and advocacy groups, we maximize the reach and effectiveness of our recruitment efforts.",
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/bbd7bf170730703.646345d2d795a.png"
-        },
-        {
-          "title": "On-Demand Virtual Nurse:",
-          "description": " To maintain the human touch, we provide an on-demand virtual nurse layer for secondary qualification. This virtual nurse offers personalized support and assistance to potential participants, addressing their questions and concerns, and ensuring a compassionate and empathetic experience.",
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/e9ae5b170730703.646345d2d88df.png"
-        },
-        {
-          "title": "Automated Recruitment Platform:",
-          "description": " Our cutting-edge software solutions automate time-consuming manual steps involved in the recruitment process. By eliminating unnecessary delays and optimizing efficiency, we provide a streamlined and hassle-free experience for both researchers and participants."
-        },
-        {
-          "title": "Achieve Recruitment Goals",
-          "description": " Through our integrated technology platform, we empower organizations to locate, qualify, and recruit patients at scale. Our automated recruitment platform saves time, reduces administrative burden, and helps you achieve your recruitment goals within the specified time and budget.",
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/2f8a1f170730703.646345d2d6e54.png"
-        }
-      ],
-      "links": {
-        "website": "https://decentrialz.com",
-        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
-        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
-      }
-    }
-  },
-  {
-    "description": "A Square Go Karting is an exhilarating theme park located in Anandapuram, Visakhapatnam. With its play arena, drive-in, and race track, it offers an adventurous experience for youngsters and children. Featuring India's longest track, it invites you to test your skills and enjoy thrilling twists and turns with your friends and family",
-    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive3.png?alt=media&token=d1e90a5a-6884-48d6-b135-904adc784387",
-    "projectLink": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
-    "tags": [
-      "Web 2"
-    ],
-    "title": "A Square Go Karting",
-    "projectName": "a-square-go-karting",
-    "completed": true,
-    "overview": {
-      "images": [
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/10_.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/424fd1168724535.643faf6c4a28a.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/a8758a168724535.643faf6c48905.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/d851f6168724535.643fc2291b128.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/fe44ca168724535.643faf6c49688.png"
-      ],
-      "techstack": [
-        "flutter",
-        "reactjs",
-        "nodejs",
-        "mongodb"
-      ],
-      "content": [
-        {
-          "title": "Project Description",
-          "description": "At A Square Go Karting, we pride ourselves on providing a superb, safe, and clean go karting track, making it the best go kart race track in Visakhapatnam. Our state-of-the-art race karts offer the perfect opportunity to enjoy the excitement of high-speed racing. The track is equipped with full safety barriers, ensuring your safety and protecting the karts from damage. Additionally, we offer a fully glowing night track, adding to the thrill of the experience."
-        },
-        {
-          "title": " Flexible Track Design and Variety of Races",
-          "description": " Our track at A Square Go Karting stands out for its unique and flexible nature. With a beach view, the track can be modified as and when required. This ensures that our karting enthusiasts always have a new challenge waiting for them, keeping the excitement alive. The track is suitable for various types of races and events, including customized tracks, championships, and practice sessions for both adults and children. Whether you are a professional driver or a complete beginner, our track guarantees an exciting and enjoyable experience for everyone.",
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/424fd1168724535.643faf6c4a28a.png"
-        },
-        {
-          "title": "Safety First",
-          "description": " Your safety is our top priority at A Square Go Karting. To ensure a safe and enjoyable experience for all participants, we have implemented strict safety rules and regulations. It is essential to follow the instructions provided by our course staff, and disobedience may result in disqualification from the race. Wearing a helmet is mandatory, and driving under the influence of alcohol or drugs is strictly prohibited. We maintain a zero-tolerance policy for intentional bumping into other go-karts or crashing into the tire barriers. We provide clear guidelines to ensure your safety throughout the racing experience.",
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/a8758a168724535.643faf6c48905.png"
-        },
-        {
-          "title": "Exciting Games and Activities",
-          "description": " In addition to go-karting, A Square Go Karting offers a range of exciting games and activities for visitors to enjoy. From mud slingers and archery to rifle shooting and rock climbing, there is something for everyone. Experience the thrill of the Big Baller, enjoy a game of snooker, or indulge in relaxation with our robotic massage chair. Trampolines and indoor tickets add to the diverse range of entertainment options available at our theme park.",
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/d851f6168724535.643fc2291b128.png"
-        },
-        {
-          "title": "Client Testimonials:",
-          "description": " Anand Boddeti, our valued client, has shared his satisfaction with our services. He chose A Square Go Karting because of our responsive and trustworthy approach, ensuring timely delivery. Our implementation of clear designs and utilization of the latest strategies throughout the development process impressed him.",
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/fe44ca168724535.643faf6c49688.png"
-        }
-      ],
-      "links": {
-        "website": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
-        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
-        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
-      }
-    }
-  },
-  {
-    "description": "In the realm of modern romance, BoomBoomTalk stands tall as a pioneering force in the digital dating landscape. Seamlessly combining innovative Web3 integration with the age-old art of connecting hearts, BoomBoomTalk is more than just another dating platform – it's a revolutionary experience that transcends conventional boundaries. In this portfolio entry, we'll delve into the captivating world of BoomBoomTalk, exploring its cutting-edge features, the transformative power of Web3, and its unwavering commitment to user safety.",
-    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%201.png?alt=media&token=76a62138-e5ec-4883-a4c6-bce56ff46955",
-    "projectLink": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
-    "tags": [
-      "Web 3"
-    ],
-    "title": "Boom Boom Talk",
-    "projectName": "boom-boom-talk",
-    "completed": true,
-    "overview": {
-      "images": [
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%201.png?alt=media&token=76a62138-e5ec-4883-a4c6-bce56ff46955",
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%202.png?alt=media&token=637edb53-d53c-470a-9446-b97284ac5cee",
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%203.png?alt=media&token=72f5b262-fd24-4fb4-a7fc-fd0366a076f8",
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%204.png?alt=media&token=35ae211b-cd48-4793-9ef6-d316b716151c",
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%205.png?alt=media&token=703aa98c-f780-4cea-9f37-6e232b8b8a83"
-      ],
-      "techstack": [
-        "figma",
-        "flutter",
-        "reactjs",
-        "mysql",
-        "aws"
-      ],
-      "content": [
-        {
-          "title": "Introduction:",
-          "description": "Elevate your dating journey with BoomBoom Talk, a revolutionary online dating platform designed to bring genuine connections to the forefront. Our cutting-edge features empower you to discover compatible matches effortlessly. Our advanced matchmaking algorithm takes your preferences to heart, making every match a potential meaningful connection. Say goodbye to the swipe-saturated world and hello to profiles that truly resonate."
-        },
-        {
-          "title": "Chat-Centric Connections:",
-          "description": "In an era marked by fleeting interactions and superficial swipes, BoomBoomTalk prioritizes meaningful connections forged through genuine conversations. Our platform places chat at the heart of the dating experience, encouraging users to engage in substantive dialogues that go beyond mere appearances. By facilitating in-depth conversations, BoomBoomTalk helps users discover the true essence of their potential partners, fostering bonds that are rooted in compatibility and shared values.",
-          "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%202.png?alt=media&token=637edb53-d53c-470a-9446-b97284ac5cee"
-        },
-        {
-          "title": "Elevate Your Interaction:",
-          "description": "Interactive profiles come alive on BoomBoom Talk, enabling you to showcase your true self through multimedia content that goes beyond just pictures. Break the ice with fun and engaging challenges, ensuring that those initial conversations flow seamlessly. Immerse yourself in our virtual events, where you can meet like-minded singles in a relaxed and enjoyable atmosphere, all while prioritizing your safety and privacy.",
-          "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%203.png?alt=media&token=72f5b262-fd24-4fb4-a7fc-fd0366a076f8"
-        },
-        {
-          "title": "Safety Above All:",
-          "description": "Safety is the cornerstone of every successful dating platform, and at BoomBoomTalk, we take it to the next level. Our commitment to user safety is unwavering, evidenced by our comprehensive measures to safeguard user profiles and personal information. Through stringent verification processes and advanced security protocols, we ensure that every profile on our platform is genuine and trustworthy.",
-          "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%204.png?alt=media&token=35ae211b-cd48-4793-9ef6-d316b716151c"
-        },
-        {
-          "title": "Conclusion:",
-          "description": "In the landscape of digital dating, BoomBoomTalk emerges as a trailblazing force that redefines the possibilities of human connection. Through innovative Web3 integration, the power of genuine conversations, and an unyielding commitment to safety, we've created a platform that transcends the limitations of traditional dating apps. BoomBoomTalk is more than just technology – it's the catalyst for genuine, transformative relationships in the digital age. Join us in shaping the future of romance, one meaningful connection at a time.",
-          "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%205.png?alt=media&token=703aa98c-f780-4cea-9f37-6e232b8b8a83"
-        }
-      ],
-      "links": {
-        "website": "https://www.boomboomtalk.xyz",
-        "android": "https://play.google.com/store/apps/details?id=com.boom_boom_talk"
-      }
-    }
-  },
-  {
-    "description": " Cypher-B is an innovative recruitment and verification platform built on the blockchain. It revolutionizes the hiring process by enabling users to secure job opportunities, verify their identities, and share their credentials with employers and organizations. By leveraging the power of blockchain technology, Cypher-B ensures a secure, tamper-proof, and transparent ecosystem for both job seekers and employers.",
-    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive4.png?alt=media&token=16ccda3e-e07c-4548-b580-24c472456d47",
-    "projectLink": "https://www.cypherb.com",
-    "tags": [
-      "Web 3"
-    ],
-    "title": "Cypher-B",
-    "projectName": "cypher-b",
-    "glimpse": "Recruitment Platform on the blockchain",
-    "completed": true,
-    "overview": {
-      "images": [
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/11_.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/1e7a56168877497.6442516a7a7dc.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/4ea5ba168877497.6442516a7c78c.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/a6cdf1168877497.6442524e0152d.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/aa399a168877497.6442516a78e1f.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/b70b2b168877497.6442516a79afc.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/d094fb168877497.6442516a76f69.png"
-      ],
-      "techstack": [
-        "nextjs",
-        "nodejs",
-        "polygon",
-        "mongodb",
-        "biconomy",
-        "metamask",
-        "tailwind"
-      ],
-      "content": [
-        {
-          "title": "Project Description",
-          "description": " Cypher-B provides a range of functionalities that streamline the recruitment process and enhance trust between employers and candidates. With easy registration, verified candidates, enhanced transparency, and the ability to track past records, Cypher-B offers a comprehensive solution for efficient and reliable hiring",
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/1e7a56168877497.6442516a7a7dc.png"
-        },
-        {
-          "title": "Easy Registration",
-          "description": " Joining Cypher-B is a seamless process. Users can easily register as employees, employers, or colleges and securely add their academic details to the blockchain. This ensures that their records are stored permanently, providing a reliable source of information that only authorized parties can access.",
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/a6cdf1168877497.6442524e0152d.png"
-        },
-        {
-          "title": "Verified Candidates",
-          "description": "Cypher-B implements a rigorous verification process for candidates. Through technical and HR interviews, profiles are thoroughly assessed and verified. This validation boosts the credibility of candidates, making them more desirable to potential employers. By connecting with partner companies, verified candidates have enhanced opportunities to secure their dream jobs.",
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/aa399a168877497.6442516a78e1f.png"
-        },
-        {
-          "title": " More Transparent ",
-          "description": " Transparency is a key feature of Cypher-B. With blockchain technology, the platform offers a decentralized and transparent environment. Employers can access verified candidate profiles, enabling them to make informed hiring decisions. This transparency mitigates the risk of hiring fraudulent or unqualified candidates, promoting a more reliable recruitment process.",
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/b70b2b168877497.6442516a79afc.png"
-        },
-        {
-          "title": "Registration  ",
-          "description": " Begin by registering on Cypher-B as an employee, employer, or college. Add your academic details to the blockchain, which will be permanently stored. Only authorized individuals will have access to view the student details unless permission is granted.",
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/b70b2b168877497.6442516a79afc.png"
-        },
-        {
-          "title": " Get Verified ",
-          "description": " Cypher-B conducts technical and HR interviews to verify your profile. By showcasing your verified profile and demonstrating an impressive interview performance, you gain an advantage in connecting with partner companies for job opportunities.",
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/d094fb168877497.6442516a76f69.png"
-        },
-        {
-          "title": " Get a Job ",
-          "description": " Employers on the platform are actively seeking talented candidates like you. With your verified profile and outstanding interview performance, you increase your chances of landing your dream job. Stand out from the crowd and secure exciting career opportunities through Cypher-B.",
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/4ea5ba168877497.6442516a7c78c.png"
-        },
-        {
-          "title": "Technologies Used: ",
-          "description": " Cypher-B has been developed using React.js and Next.js, ensuring a robust and user-friendly interface. The platform is hosted on the Polygon blockchain network, leveraging the benefits of decentralization. Gasless transactions have been implemented, eliminating the need for end users to pay gas fees for smart contract functionalities. All confidential details are stored securely on the IPFS storage system, providing an added layer of data protection."
-        },
-        {
-          "title": " Main Purpose",
-          "description": " The main purpose of Cypher-B is to simplify the recruitment process and make it more accessible and efficient for organizations. By leveraging blockchain technology, Cypher-B enhances trust, transparency, and reliability in the hiring ecosystem. Additionally, the platform enables students to showcase their skills through AI-based interview processes, empowering them to test their abilities and enhance their career prospects."
-        },
-        {
-          "title": " Gasless Transactions",
-          "description": " Developing a decentralized blockchain application like Cypher-B introduced a significant challenge concerning gas charges (transaction fees) for every operation performed on the blockchain through smart contracts. It became apparent that expecting end users to possess a web3 crypto wallet and pay gas fees for transactions posed a barrier to adoption. To overcome this obstacle, we implemented a solution known as gasless transactions. This approach allows users to interact with the application seamlessly, similar to a web2 application, without requiring a web3 wallet or gas fees. We integrated the Biconomy gasless transaction functionality into the application and developed our own web3 wallet within the platform, ensuring a smooth user experience"
-        },
-        {
-          "title": " Confidential Data Storage",
-          "description": " Another crucial challenge we encountered was the secure storage of candidate and user confidential details, including certificates, offer letters, and experience records. As a decentralized platform, we needed to find a solution that ensured data privacy and integrity. To address this challenge, we implemented a decentralized storage system using IPFS (InterPlanetary File System). However, the additional complexity arose in the form of encrypting each detail of certificates before storing them on IPFS. By employing advanced cryptography techniques, we successfully achieved secure and private storage of sensitive information, providing users with peace of mind regarding the confidentiality of their data."
-        }
-      ],
-      "links": {
-        "website": "https://cypherb.spotmies.com",
         "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
       }
@@ -1129,80 +1350,6 @@
     }
   },
   {
-    "description": "Experience the extraordinary world of Indie Skull Syndicate, where creativity, uniqueness, and digital ownership merge into a captivating journey. Join Zoople and 2,500 other wanderers in this groundbreaking NFT project that blurs the boundaries between humans and phantoms. Are you ready to become a member of the Syndicate",
-    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive12.png?alt=media&token=0d7c5bd8-f2a3-4cbb-9990-500ee4a5ab3c",
-    "projectLink": "https://indieskullsyndicate.xyz",
-    "tags": [
-      "Web 3",
-      "NFT"
-    ],
-    "title": "Indie Skull Syndicate",
-    "projectName": "indie-skull-syndicate",
-    "glimpse": "NFT based project",
-    "completed": true,
-    "overview": {
-      "images": [
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/5_indiesskull.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/2edb83169113745.644764b381632.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/45aeff169113745.644764b38368c.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/5e05ac169113745.644764b3823c0.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/664197169113745.6447680d9b8a2.png"
-      ],
-      "techstack": [
-        "nextjs",
-        "tailwind",
-        "vercel",
-        "firebase",
-        "metamask",
-        "solidity",
-        "ethereum"
-      ],
-      "content": [
-        {
-          "title": "Project Description",
-          "description": "Experience the extraordinary world of Indie Skull Syndicate, where creativity, uniqueness, and digital ownership merge into a captivating journey. Join Zoople and 2,500 other wanderers in this groundbreaking NFT project that blurs the boundaries between humans and phantoms. Are you ready to become a member of the Syndicate"
-        },
-        {
-          "title": "Unlock the Power of NFTs",
-          "description": " Indie Skull Syndicate is an innovative NFT (Non-Fungible Token) project that embraces the transformative potential of blockchain technology. Our platform provides a digital marketplace where individuals can buy and sell unique digital assets securely, immutably, and transparently. Through the power of smart contracts, each NFT becomes a one-of-a-kind collectable, representing a piece of art, music, or other forms of creative expression.",
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/2edb83169113745.644764b381632.png"
-        },
-        {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/45aeff169113745.644764b38368c.png",
-          "title": "Next-Level Technology ",
-          "description": " At Indie Skull Syndicate, we leverage cutting-edge technologies to ensure a seamless and immersive experience for our community. Our application is built on Next.js, a powerful framework that combines the benefits of React with server-side rendering, offering lightning-fast performance and enhanced SEO capabilities. The smart contracts that govern the creation, ownership, and trading of NFTs are developed using the Solidity programming language, ensuring the utmost security and reliability."
-        },
-        {
-          "title": "Featured on OpenSea",
-          "description": "We're proud to announce that Indie Skull Syndicate has been featured on OpenSea, the world's largest NFT marketplace. As a featured project, our unique digital assets are showcased to a vast audience of collectors, enthusiasts, and investors. This partnership opens up exciting opportunities for our community members to connect with a wider audience, trade their NFTs, and explore new avenues for artistic expression."
-        },
-        {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/5e05ac169113745.644764b3823c0.png",
-          "title": " Your Gateway to Exclusive Digital Assets",
-          "description": " Indie Skull Syndicate is not just another free mint platform. We believe in the value and craftsmanship behind each NFT, which is why our marketplace offers carefully curated, premium digital assets. Every piece available for purchase has been thoughtfully crafted by talented artists, musicians, and creators, making each NFT a unique and valuable addition to your collection. Prepare to embark on a journey of discovery, as you explore a vast array of captivating, limited-edition digital treasures."
-        },
-        {
-          "title": "Connect, Engage, and Inspire ",
-          "description": " Indie Skull Syndicate is more than just a marketplace; it's a thriving community of passionate individuals who appreciate the beauty and significance of digital art and collectables. Connect with like-minded enthusiasts, engage in conversations, and inspire others with your own creations. Join us in celebrating the world of NFTs, where artistic expression knows no bounds and digital ownership becomes a new frontier"
-        },
-        {
-          "title": " About mint day",
-          "description": " Initially, few people minted the NFTs for the price of 0.007 Ethereum, but later the client decided to make them available for free to all users. Once they became available for free, the NFTs became incredibly popular and set a record in the OpenSea platform. The project quickly became one of the top three best-selling NFT collections in a single day and was the fastest-selling NFT collection of that day."
-        },
-        {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/664197169113745.6447680d9b8a2.png",
-          "title": "The challenge we faced during the project ",
-          "description": " One of the main challenges faced during the development of this project was creating an interactive website with dynamic designs and skull images. The team had to work hard to arrange the half-human, half-skull images together and create engaging animations for the website. Despite these challenges, the team successfully created a one-of-a-kind NFT project that stands out in the ever-growing NFT market.The Indie Skull Syndicate NFT project is now featured on OpenSea, where collectors can purchase and trade these unique NFTs. Join the Syndicate and become a part of this exciting and exclusive NFT collection."
-        }
-      ],
-      "links": {
-        "website": "https://indieskullsyndicate.spotmies.com",
-        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
-        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
-      }
-    }
-  },
-  {
     "description": "Mad Angles is an extraordinary NFT (Non-Fungible Token) project that combines the allure of triangular art with the captivating expressions of eyes, mouth, and eyebrows. It is a unique and visually stunning collection of digital assets that showcases the creative fusion of geometry and emotions. Although the project has been fully developed, encompassing UI design, artwork, and smart contract deployment on the Ethereum network, it awaits the opportunity to be launched into the vibrant NFT marketplace.",
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive13.png?alt=media&token=f161aa15-eb6c-4181-9704-b829df6d3cd7",
     "projectLink": "https://indieskullsyndicate.xyz",
@@ -1259,6 +1406,96 @@
       ],
       "links": {
         "website": null,
+        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
+      }
+    }
+  },
+  {
+    "description": " Cypher-B is an innovative recruitment and verification platform built on the blockchain. It revolutionizes the hiring process by enabling users to secure job opportunities, verify their identities, and share their credentials with employers and organizations. By leveraging the power of blockchain technology, Cypher-B ensures a secure, tamper-proof, and transparent ecosystem for both job seekers and employers.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive4.png?alt=media&token=16ccda3e-e07c-4548-b580-24c472456d47",
+    "projectLink": "https://www.cypherb.com",
+    "tags": [
+      "Web 3"
+    ],
+    "title": "Cypher-B",
+    "projectName": "cypher-b",
+    "glimpse": "Recruitment Platform on the blockchain",
+    "completed": true,
+    "overview": {
+      "images": [
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/11_.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/1e7a56168877497.6442516a7a7dc.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/4ea5ba168877497.6442516a7c78c.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/a6cdf1168877497.6442524e0152d.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/aa399a168877497.6442516a78e1f.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/b70b2b168877497.6442516a79afc.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/d094fb168877497.6442516a76f69.png"
+      ],
+      "techstack": [
+        "nextjs",
+        "nodejs",
+        "polygon",
+        "mongodb",
+        "biconomy",
+        "metamask",
+        "tailwind"
+      ],
+      "content": [
+        {
+          "title": "Project Description",
+          "description": " Cypher-B provides a range of functionalities that streamline the recruitment process and enhance trust between employers and candidates. With easy registration, verified candidates, enhanced transparency, and the ability to track past records, Cypher-B offers a comprehensive solution for efficient and reliable hiring",
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/1e7a56168877497.6442516a7a7dc.png"
+        },
+        {
+          "title": "Easy Registration",
+          "description": " Joining Cypher-B is a seamless process. Users can easily register as employees, employers, or colleges and securely add their academic details to the blockchain. This ensures that their records are stored permanently, providing a reliable source of information that only authorized parties can access.",
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/a6cdf1168877497.6442524e0152d.png"
+        },
+        {
+          "title": "Verified Candidates",
+          "description": "Cypher-B implements a rigorous verification process for candidates. Through technical and HR interviews, profiles are thoroughly assessed and verified. This validation boosts the credibility of candidates, making them more desirable to potential employers. By connecting with partner companies, verified candidates have enhanced opportunities to secure their dream jobs.",
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/aa399a168877497.6442516a78e1f.png"
+        },
+        {
+          "title": " More Transparent ",
+          "description": " Transparency is a key feature of Cypher-B. With blockchain technology, the platform offers a decentralized and transparent environment. Employers can access verified candidate profiles, enabling them to make informed hiring decisions. This transparency mitigates the risk of hiring fraudulent or unqualified candidates, promoting a more reliable recruitment process.",
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/b70b2b168877497.6442516a79afc.png"
+        },
+        {
+          "title": "Registration  ",
+          "description": " Begin by registering on Cypher-B as an employee, employer, or college. Add your academic details to the blockchain, which will be permanently stored. Only authorized individuals will have access to view the student details unless permission is granted.",
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/b70b2b168877497.6442516a79afc.png"
+        },
+        {
+          "title": " Get Verified ",
+          "description": " Cypher-B conducts technical and HR interviews to verify your profile. By showcasing your verified profile and demonstrating an impressive interview performance, you gain an advantage in connecting with partner companies for job opportunities.",
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/d094fb168877497.6442516a76f69.png"
+        },
+        {
+          "title": " Get a Job ",
+          "description": " Employers on the platform are actively seeking talented candidates like you. With your verified profile and outstanding interview performance, you increase your chances of landing your dream job. Stand out from the crowd and secure exciting career opportunities through Cypher-B.",
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/4ea5ba168877497.6442516a7c78c.png"
+        },
+        {
+          "title": "Technologies Used: ",
+          "description": " Cypher-B has been developed using React.js and Next.js, ensuring a robust and user-friendly interface. The platform is hosted on the Polygon blockchain network, leveraging the benefits of decentralization. Gasless transactions have been implemented, eliminating the need for end users to pay gas fees for smart contract functionalities. All confidential details are stored securely on the IPFS storage system, providing an added layer of data protection."
+        },
+        {
+          "title": " Main Purpose",
+          "description": " The main purpose of Cypher-B is to simplify the recruitment process and make it more accessible and efficient for organizations. By leveraging blockchain technology, Cypher-B enhances trust, transparency, and reliability in the hiring ecosystem. Additionally, the platform enables students to showcase their skills through AI-based interview processes, empowering them to test their abilities and enhance their career prospects."
+        },
+        {
+          "title": " Gasless Transactions",
+          "description": " Developing a decentralized blockchain application like Cypher-B introduced a significant challenge concerning gas charges (transaction fees) for every operation performed on the blockchain through smart contracts. It became apparent that expecting end users to possess a web3 crypto wallet and pay gas fees for transactions posed a barrier to adoption. To overcome this obstacle, we implemented a solution known as gasless transactions. This approach allows users to interact with the application seamlessly, similar to a web2 application, without requiring a web3 wallet or gas fees. We integrated the Biconomy gasless transaction functionality into the application and developed our own web3 wallet within the platform, ensuring a smooth user experience"
+        },
+        {
+          "title": " Confidential Data Storage",
+          "description": " Another crucial challenge we encountered was the secure storage of candidate and user confidential details, including certificates, offer letters, and experience records. As a decentralized platform, we needed to find a solution that ensured data privacy and integrity. To address this challenge, we implemented a decentralized storage system using IPFS (InterPlanetary File System). However, the additional complexity arose in the form of encrypting each detail of certificates before storing them on IPFS. By employing advanced cryptography techniques, we successfully achieved secure and private storage of sensitive information, providing users with peace of mind regarding the confidentiality of their data."
+        }
+      ],
+      "links": {
+        "website": "https://cypherb.spotmies.com",
         "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
       }

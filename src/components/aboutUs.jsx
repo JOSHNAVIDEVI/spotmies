@@ -60,7 +60,7 @@ export default function AboutUs() {
             <div className="flex flex-row w-full items-center justify-between pt-[5%]">
               <div className="flex flex-col items-center justify-center">
                 <p className="gil-med text-3xl lg:text-4xl">
-                  <CountUp enableScrollSpy={true} end={30} />
+                  <CountUp enableScrollSpy={true} end={45} />
                   <span className="md:mb-[15px] mb-[8px]">+</span>
                 </p>
                 <p className="gil-reg text-md lg:text-3xl">Projects</p>

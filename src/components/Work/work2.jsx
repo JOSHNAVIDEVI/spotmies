@@ -340,7 +340,7 @@ export function ProjectDetails({ index, showMaximize, setShowpopup }) {
           {worksJson[index]?.overview?.images?.map((item, key) => (
             <div
               key={key}
-              className="h-fit mx-[20%] w-[900px] lg:w-[600px] md:w-[900px] md:p-4 rounded-md"
+              className="h-[300px] mx-0 md:h-fit md:mx-auto w-[600px] lg:w-[600px] md:w-[900px] md:p-4 rounded-md"
             >
               <img
                 src={item}
